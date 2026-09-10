@@ -6,3 +6,7 @@
 
 /* Te Equipamos */
 .wordmark{font-size:clamp(27px,3.3vw,40px);letter-spacing:-1.5px;white-space:nowrap}.product-cta{margin-top:25px;border-color:#8a7549}.sale-price{font:38px Georgia,serif;margin:0 0 30px}.contact-number{font-size:14px;margin-top:22px}.whatsapp-fixed{position:fixed;bottom:22px;right:22px;z-index:10;background:#173d34;color:#fff;border:1px solid #cbb47e;border-radius:30px;padding:11px 22px;font-size:14px;box-shadow:0 4px 22px #0003}.whatsapp-fixed:hover{background:#245547}footer{padding-bottom:95px}@media(max-width:650px){.wordmark{font-size:29px}.masthead .navlink{font-size:13px}.closing .button{font-size:14px;gap:12px;padding:14px 16px}.whatsapp-fixed{bottom:15px;right:15px}.cover .eyebrow{max-width:280px}}
+/* Firma de marca discreta */
+.masthead .wordmark,footer .wordmark{font-family:Georgia,'Times New Roman',serif;font-size:24px;font-style:normal;font-weight:400;line-height:1.15;letter-spacing:-.5px}
+.masthead .wordmark span,footer .wordmark span{font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:400;line-height:1.4;letter-spacing:.24em;margin-top:7px;text-align:left;color:#d4bb87}
+@media(max-width:650px){.masthead .wordmark,footer .wordmark{font-size:21px;letter-spacing:-.35px}.masthead .wordmark span,footer .wordmark span{font-size:8px;letter-spacing:.22em;margin-top:6px}}
