@@ -10,3 +10,10 @@
 .masthead .wordmark,footer .wordmark{font-family:Georgia,'Times New Roman',serif;font-size:24px;font-style:normal;font-weight:400;line-height:1.15;letter-spacing:-.5px}
 .masthead .wordmark span,footer .wordmark span{font-family:Arial,Helvetica,sans-serif;font-size:9px;font-weight:400;line-height:1.4;letter-spacing:.24em;margin-top:7px;text-align:left;color:#d4bb87}
 @media(max-width:650px){.masthead .wordmark,footer .wordmark{font-size:21px;letter-spacing:-.35px}.masthead .wordmark span,footer .wordmark span{font-size:8px;letter-spacing:.22em;margin-top:6px}}
+
+/* Pie editorial centrado en todas las pantallas */
+footer{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:24px;padding:48px 24px 100px}
+footer .wordmark{white-space:normal;text-align:center}
+footer .wordmark span{text-align:center}
+footer>a:last-child{margin:0;font-size:13px;letter-spacing:.06em;color:#d4bb87}
+@media(max-width:650px){footer{gap:22px;padding:40px 20px 100px}footer>a:last-child{margin:0}footer .wordmark span{text-align:center}}
