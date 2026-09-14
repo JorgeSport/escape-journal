@@ -1,0 +1,17 @@
+{
+  "brand": "Te Equipamos",
+  "items": [
+    {
+      "active": true,
+      "type": "review",
+      "sections": ["Reviews", "Ventas", "Novedades"],
+      "title": "De la ciudad al sendero con una sola mochila: por qué el formato rolltop cambia tanto el uso",
+      "summary": "Quechua Escape 500 Rolltop de 16+4 L presentada en formato editorial para combinar ciudad, viaje y senderismo.",
+      "url": "https://jorgesport.github.io/escape-journal/",
+      "time": "Review · Mochilas",
+      "score": 96,
+      "featured": false,
+      "direct": true
+    }
+  ]
+}
